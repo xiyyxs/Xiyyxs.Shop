@@ -216,7 +216,7 @@
 
 .icon {
     transition: all 0.3s ease;
-    padding: 2px;
+    padding: 10px;
 }
 
 .icon:hover {
