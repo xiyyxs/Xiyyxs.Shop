@@ -1,0 +1,224 @@
+
+.menu {
+    width: 1460px;   
+    height: 820px; 
+    background-color: #271900; 
+    border-radius: 30px;   
+    box-shadow: 0 0 15px #b87700;   
+    margin-left: 215px ;   
+    margin-top: 71px;
+    z-index: 0;
+}  
+
+.ava { 
+    width: 430px;
+    height: 435px;
+    margin-left: 1060px; 
+    margin-top: -240px; 
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.body {
+    background-color: #1d1300;
+}  
+
+.nik {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    font-size: 75px;   
+    z-index: 1;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.shop {
+    width: 1400px;
+    height: 300px;
+    background-color: #573a00;
+    box-shadow: 0 0 15px #d88c00;
+    border-radius: 20px;
+    margin-top: 100px; 
+    margin-left: 28px;
+}
+
+.odinsem {
+    width: 450px;
+    height: 250px; 
+    margin-left: 17px;
+    margin-top: 25px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px #777777;
+    z-index: 1;
+}
+
+.shestsem {
+    width: 450px;
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 20px; 
+    box-shadow: 0 0 15px #777777;
+    transition: all 0.3s ease;
+    z-index: 1;
+}   
+
+.soon   {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    font-size: 75px;   
+    z-index: 1;
+    margin-left: 1030px;
+    margin-top: -180px;
+    transition: all 0.3s ease;
+}
+
+.odinsem:hover {
+    transform: scale(1.03);
+    z-index: 2;
+}
+
+.shestsem:hover {
+    transform: scale(1.03);
+    z-index: 2;
+}
+
+.ava:hover {
+    transform: scale(1.05);
+}
+
+.soon:hover {
+    transform: scale(1.03);
+}
+
+.opis {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(148, 148, 148) ;
+    color: rgb(168, 168, 168);
+    font-size: 40px;   
+    z-index: 1;
+    margin-top: -650px;
+    margin-left: 50px;
+}
+
+.xh {
+    width: 350px;
+    height: 100px;
+    background-color: #573a00;
+    box-shadow: 0 0 15px #d88c00;
+    border-radius: 20px;    
+    margin-top: -17px;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+
+.xht {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    font-size: 40px;   
+    z-index: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-right: 7px;
+    padding-top: 23px;
+    text-decoration: none;
+}
+
+.xh:hover {
+    transform: scale(1.03);
+}
+
+.md {
+    width: 350px;
+    height: 100px;
+    background-color: #573a00;
+    box-shadow: 0 0 15px #d88c00;
+    border-radius: 20px;    
+    margin-top: -100px;
+    margin-left: 400px;
+    transition: all 0.3s ease;
+}
+
+.mdt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    font-size: 35px;   
+    z-index: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.md:hover {
+    transform: scale(1.03);
+}
+
+.old {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(163, 163, 163) ;
+    color: rgb(177, 177, 177);
+    font-size: 40px;   
+    z-index: 1;
+    margin-top: -155px;
+    margin-left: 1213px;
+}
+
+.set {
+    width: 350px;
+    height: 100px;
+    background-color: #573a00;
+    box-shadow: 0 0 15px #d88c00;
+    border-radius: 20px;    
+    margin-top: -34px;
+    margin-left: 770px;
+    transition: all 0.3s ease;
+}
+
+.sett {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800px;
+    text-shadow: 0 0 3px rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    font-size: 40px;   
+    z-index: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 24px;
+    text-decoration: none;
+}
+
+.set:hover {
+    transform: scale(1.03);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: -85px;
+    margin-left: 1100px;
+}
+
+.icon {
+    transition: all 0.3s ease;
+    padding: 2px;
+}
+
+.icon:hover {
+    transform: scale(1.03);
+}
